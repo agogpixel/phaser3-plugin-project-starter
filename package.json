@@ -1,0 +1,68 @@
+{
+  "name": "@agogpixel/phaser3-plugin-project-starter",
+  "version": "0.1.0",
+  "description": "Phaser 3 plugin project starter.",
+  "main": "main.bundle.js",
+  "module": "main.bundle.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --progress --color",
+    "start": "jest --watch",
+    "test": "jest --coverage",
+    "lint": "eslint jest.config.js webpack.config.js src && prettier --check .",
+    "lint:fix": "eslint --fix jest.config.js webpack.config.js src && prettier --write .",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agogpixel/phaser3-plugin-project-starter.git"
+  },
+  "author": "kidthales <kidthales@agogpixel.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/agogpixel/phaser3-plugin-project-starter/issues"
+  },
+  "homepage": "https://github.com/agogpixel/phaser3-plugin-project-starter#readme",
+  "peerDependencies": {
+    "phaser": ">=3.8.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/node": "^14.17.27",
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.4.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "html-loader": "^2.1.2",
+    "husky": "^7.0.2",
+    "jest": "^27.3.1",
+    "jest-canvas-mock": "^2.3.1",
+    "lint-staged": "^11.2.3",
+    "mini-css-extract-plugin": "^2.4.2",
+    "phaser": "^3.55.2",
+    "prettier": "^2.4.1",
+    "sass": "^1.43.2",
+    "sass-loader": "^12.2.0",
+    "shx": "^0.3.3",
+    "source-map-loader": "^3.0.0",
+    "style-loader": "^3.3.0",
+    "ts-jest": "^27.0.7",
+    "ts-loader": "^9.2.4",
+    "tslib": "^2.3.1",
+    "typescript": "^4.4.4",
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "lint-staged": {
+    "*.(html|js|ts)": "eslint --cache --fix",
+    "*.(css|less|scss|sass|styl|md|json)": "prettier --write"
+  }
+}
