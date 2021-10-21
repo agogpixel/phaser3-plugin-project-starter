@@ -32,11 +32,11 @@ npm install
 
 See the following for information on how plugins work in Phaser 3:
 
-- [Old API Docs](https://photonstorm.github.io/phaser3-docs/Phaser.Plugins.html)
-- [New API Docs](https://newdocs.phaser.io/docs/3.55.2/Phaser.Plugins)
-- [Plugin System Notes](https://rexrainbow.github.io/phaser3-rex-notes/docs/site/pluginsystem/)
-- [Phaser Labs](https://labs.phaser.io/index.html?dir=plugins/&q=)
-- [Plugin Examples](https://phaser.io/examples/v3/category/plugins)
+-   [Old API Docs](https://photonstorm.github.io/phaser3-docs/Phaser.Plugins.html)
+-   [New API Docs](https://newdocs.phaser.io/docs/3.55.2/Phaser.Plugins)
+-   [Plugin System Notes](https://rexrainbow.github.io/phaser3-rex-notes/docs/site/pluginsystem/)
+-   [Phaser Labs](https://labs.phaser.io/index.html?dir=plugins/&q=)
+-   [Plugin Examples](https://phaser.io/examples/v3/category/plugins)
 
 ### File Structure
 

@@ -8,8 +8,8 @@
     "build": "cross-env NODE_ENV=production webpack --progress --color",
     "start": "jest --watch",
     "test": "jest --coverage",
-    "lint": "eslint jest.config.js webpack.config.js src && prettier --check .",
-    "lint:fix": "eslint --fix jest.config.js webpack.config.js src && prettier --write .",
+    "lint": "eslint jest.config.js webpack.config.js src test && prettier --check .",
+    "lint:fix": "eslint --fix jest.config.js webpack.config.js src test && prettier --write .",
     "prepare": "husky install"
   },
   "repository": {
