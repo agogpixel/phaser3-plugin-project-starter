@@ -1,6 +1,6 @@
 # agogpixel/phaser3-plugin-project-starter
 
-Another opinionated [Phaser 3](https://github.com/photonstorm/phaser) plugin project starter with [TypeScript](https://www.typescriptlang.org/), [webpack](https://webpack.js.org/), & [jest](https://jestjs.io/).
+Another opinionated [Phaser 3](https://github.com/photonstorm/phaser) plugin project starter with [TypeScript](https://www.typescriptlang.org/), [webpack](https://webpack.js.org/), [Sass](https://sass-lang.com/), & [jest](https://jestjs.io/).
 
 Code style/formatting with [ESLint](https://eslint.org/) & [Prettier](https://prettier.io/); pre-commit hook via [Husky](https://typicode.github.io/husky) & [lint-staged](https://github.com/okonet/lint-staged).
 
