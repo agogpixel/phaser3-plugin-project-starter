@@ -57,9 +57,13 @@ phaser3-plugin-project-starter/
  |   |
  |   ├──lib/                                   * Library files.
  |   |   |
+ |   |   ├──gameobjects/                       * Phaser game objects.
+ |   |   |   ├──example-gameobject.spec.ts     * Example game object unit tests.
+ |   |   |   └──example-gameobject.ts          * Example game object.
+ |   |   |
  |   |   ├──plugins/                           * Phaser plugins.
  |   |   |   ├──example-global-plugin.spec.ts  * Example global plugin unit tests.
- |   |   |   ├──example-global-plugin.ts       * Example global plugin test.
+ |   |   |   ├──example-global-plugin.ts       * Example global plugin.
  |   |   |   ├──example-scene-plugin.spec.ts   * Example scene plugin unit tests.
  |   |   |   └──example-scene-plugin.ts        * Example scene plugin.
  |   |   |

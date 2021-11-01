@@ -1,6 +1,6 @@
 {
   "name": "@agogpixel/phaser3-plugin-project-starter",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "description": "Phaser 3 plugin project starter.",
   "main": "main.bundle.js",
   "module": "main.bundle.js",
@@ -22,6 +22,9 @@
     "url": "https://github.com/agogpixel/phaser3-plugin-project-starter/issues"
   },
   "homepage": "https://github.com/agogpixel/phaser3-plugin-project-starter#readme",
+  "dependencies": {
+    "@agogpixel/phaser3-ts-utils": "^0.1.0"
+  },
   "peerDependencies": {
     "phaser": ">=3.8.0"
   },
@@ -63,6 +66,6 @@
   },
   "lint-staged": {
     "*.(html|js|ts)": "eslint --cache --fix",
-    "*.(css|less|scss|sass|styl|md|json)": "prettier --write"
+    "*.(css|less|scss|sass|styl|md|json|yml)": "prettier --write"
   }
 }
